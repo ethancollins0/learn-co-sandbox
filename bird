@@ -1,0 +1,16 @@
+function doTo5(anything) {
+  return anything(5)
+}
+
+function divide10byN(n)
+{
+  return 10/function
+}
+
+doTo5(divide10byN) // 2
+
+function appendToHello(s) {
+  return `Hello, ${s}!`
+}
+
+doTo5(appendToHello) // 'Hello, 5!'

@@ -1,0 +1,21 @@
+function sayHelloTo(firstName) {
+  console.log(`Hello, ${firstName}!`)
+}
+
+sayHelloTo('Isabel') //
+"hello, Isabel!"
+sayHelloTo('Jane') //
+"hello, Jane!"
+sayHelloTo('R2-D2') //
+"hello, R2-D2!"
+sayHelloTo(1) //
+"hello, 1!"
+
+function say(greeting, firstName) {
+  return(`${greeting}, ${firstName}!`)
+}
+
+say("Goodbye", "Julio")
+say("Julio", "Hello")
+
+say("Hello", "Sofia")
